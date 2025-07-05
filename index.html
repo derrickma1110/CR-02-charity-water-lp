@@ -1,47 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emma's Fight for Clean Water</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f5;
+    }
+    .hero {
+      background-color: #116530;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .story {
+      background-color: #116530;
+      color: white;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .story p {
+      max-width: 600px;
+      line-height: 1.6;
+    }
+    .author {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .subscribe-btn {
+      background-color: #f7941d;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .image-section {
+      text-align: center;
+      margin-top: 0;
+    }
+    .image-section img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 6px;
+    }
+    @media (min-width: 768px) {
+      .story {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 40px;
+      }
+      .story p {
+        max-width: 50%;
+      }
+      .image-section {
+        max-width: 45%;
+      }
+    }
+  </style>
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+  <section class="hero">
+    <h2>Charity:Water</h2>
+    <h1>"Emma's Fight for Clean Water: Turning Compassion into Action"</h1>
+  </section>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
+  <section class="story">
+    <div>
+      <p>As a passionate student activist, Emma has been lobbying for action beyond the classroom; but by donating water, organizing campus events, and driving change to support communities in need. Her story is a testament to the power of youth-led impact.</p>
+      <div class="author">
+        <span>Written by <strong>Derrick Ma</strong></span>
+        <button class="subscribe-btn">Subscribe</button>
+      </div>
+    </div>
+    <div class="image-section">
+      <img src="https://via.placeholder.com/400x300" alt="Emma helping community">
+    </div>
+  </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
 </body>
 </html>
