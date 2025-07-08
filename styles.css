@@ -53,7 +53,6 @@ h1 {
 }
 
 .description {
-  text-align: center;
   font-size: 16px;
   line-height: 1.6;
   max-width: 90%;
@@ -104,3 +103,4 @@ h1 {
   height: auto;
   object-fit: cover;
 }
+
