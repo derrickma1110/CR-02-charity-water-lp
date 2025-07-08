@@ -6,7 +6,7 @@ body {
 
 .container {
     max-width: 900px;
-    margin: 30 px auto;
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -48,7 +48,7 @@ body {
 /* CTA Button */
 .cta {
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .subscribe-btn {
