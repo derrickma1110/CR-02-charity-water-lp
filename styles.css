@@ -1,82 +1,74 @@
+/* styles.css */
+
 body {
-  min-height: 100vh;          /* Full viewport height */
-  display: flex;              /* Use Flexbox */
-  justify-content: center;    /* Center horizontally */
-  align-items: center;        /* Center vertically */
-  flex-direction: column;     /* Stack children vertically */
-  margin: 0;                  /* Remove default margin */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f5fa;
+  color: white;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Hero Section */
 .hero {
-    background-color: #006400; /* Dark Green */
-    color: white;
-    padding: 20px;
-    position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  background-color: #0d662b;
+  padding: 40px 20px;
+  position: relative;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .logo img {
-    width: 50px;
-    height: 50px;
+  width: 40px;
+}
+
+.logo h1 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+  color: white;
 }
 
 .title {
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 1.5em;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px 0 10px;
 }
 
-/* Story Section */
 .story {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-top: -40px; /* To overlap with the hero's shape */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-size: 18px;
+  max-width: 700px;
 }
 
-/* CTA Button */
+.author-section {
+  font-size: 20px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.subscribe {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .cta {
-    text-align: center;
-    margin: 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
 }
 
-.subscribe-btn {
-    background-color: orange;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    font-size: 1em;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.cta img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
-.subscribe-btn:hover {
-    background-color: darkorange;
-}
-
-/* Image Section */
-.image-section {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.image-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-}
