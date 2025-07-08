@@ -13,23 +13,6 @@ body {
   position: relative;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo img {
-  width: 40px;
-}
-
-.logo h1 {
-  font-size: 20px;
-  margin: 0;
-  font-weight: bold;
-  color: white;
-}
-
 .title {
   font-weight: bold;
   font-size: 18px;
@@ -44,9 +27,7 @@ body {
 .author-section {
   font-size: 20px;
   margin-top: 30px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  color: #dddddd;
 }
 
 .subscribe {
@@ -57,6 +38,7 @@ body {
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .cta {
@@ -71,4 +53,3 @@ body {
   height: auto;
   border-radius: 8px;
 }
-
